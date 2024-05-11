@@ -1,4 +1,4 @@
-all: ex101.o ex102.o ex103.o ex104.o ex105.o ex106.o ex107.o ex108.o ex109.o
+all: ex101.o ex102.o ex103.o ex104.o ex105.o ex106.o ex107.o ex108.o ex109.o ex110.o
 
 ex101.o: ex101.c
 	cc -ansi ex101.c -o ex101.o
@@ -26,6 +26,9 @@ ex108.o: ex108.c
 
 ex109.o: ex109.c
 	cc -ansi ex109.c -o ex109.o
+
+ex110.o: ex110.c
+	cc -ansi ex110.c -o ex110.o
 
 clean:
 	rm -rvf *.o
