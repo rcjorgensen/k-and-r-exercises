@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Copy input to output, replacing each string of one or more blanks by a single blank */
-main()
+int main()
 {
 	int c;
 
@@ -15,4 +15,6 @@ main()
 			putchar(c);
 		}
 	}
+
+	return 0;
 }

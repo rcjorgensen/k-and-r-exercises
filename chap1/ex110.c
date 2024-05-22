@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Copy input to output, replacing each tab by \t, each backspace by \b and each backslash by \\ */
-main()
+int main()
 {
 	int c;
 
@@ -19,4 +19,6 @@ main()
 			}
 		}
 	}
+
+	return 0;
 }

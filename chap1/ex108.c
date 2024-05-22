@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Count blanks, tabs and newlines */
-main()
+int main()
 {
 	int n, c;
 
@@ -13,4 +13,6 @@ main()
 	}
 
 	printf("%d\n", n);
+
+	return 0;
 }

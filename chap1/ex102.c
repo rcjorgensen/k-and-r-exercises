@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-main()
+int main()
 {
 	printf("hello, ");
 	printf("world");
-	printf("\c");
+	printf("\b");
+
+	return 0;
 }

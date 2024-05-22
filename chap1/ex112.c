@@ -4,7 +4,7 @@
 #define OUT 0 /* outside a word */
 
 /* print the input one word per line */
-main()
+int main()
 {
 	int c, state;
 
@@ -25,4 +25,6 @@ main()
 	}
 
 	putchar('\n');
+
+	return 0;
 }

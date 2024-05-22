@@ -3,7 +3,7 @@
 #define NCHARS	128
 
 /* prints a histogram of the frequencies of different characters in the input */
-main()
+int main()
 {
 	int c, i;
 	int chars[NCHARS];
@@ -21,4 +21,6 @@ main()
 			printf("\n");
 		}
 	}
+
+	return 0;
 }

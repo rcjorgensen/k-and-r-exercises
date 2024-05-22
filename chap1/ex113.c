@@ -6,7 +6,7 @@
 #define MAX_LENGTH	20	/* max length representable in the histogram */
 
 /* print a histogram of the lengths of words in the input */
-main()
+int main()
 {
 	int c, i, j, state, length;
 	int words[MAX_LENGTH + 1];
@@ -44,4 +44,6 @@ main()
 		printf("#");
 	}
 	printf("\n");
+
+	return 0;
 }
