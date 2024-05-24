@@ -4,7 +4,6 @@
 #define MINLINE 80		/* minimum length for an input line to be printed */
 
 int getline(char line[], int maxline);
-void copy(char to[], char from[]);
 
 /* print all input lines that are longer than 80 characters */
 int main()
