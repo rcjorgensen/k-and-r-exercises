@@ -15,7 +15,8 @@ all: ex101.o \
 	ex114.o \
 	ex115.o \
 	ex116.o \
-	ex117.o
+	ex117.o \
+	ex118.o
 
 ex101.o: ex101.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $*.c
@@ -63,6 +64,9 @@ ex116.o: ex116.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $*.c
 
 ex117.o: ex117.c
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $*.c
+
+ex118.o: ex118.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $*.c
 
 clean:
