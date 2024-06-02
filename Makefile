@@ -1,14 +1,17 @@
 CFLAGS = -ansi -g -Wall -O3
 
-SRCS=$(wildcard *.c)
-OBJS=$(SRCS:.c=.o)
+SRC = src
+BIN = bin
 
-all: $(OBJS)
+SRCS=$(wildcard src/*.c)
+BINS=$(SRCS:src/%.c=bin/%)
 
-%.o: %.c
+all: $(BINS)
+
+$(BIN)/%: $(SRC)/%.c
 	$(CC) $(CFLAGS) -o $@ $<
 
 .PHONY: clean
 
 clean:
-	$(RM) *.o
+	$(RM) $(BIN)/*
