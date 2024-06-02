@@ -1,5 +1,11 @@
-```sh
-cd chapX
+# K&R Exercises
+
+## Build
+```
 make
-./exXYZ
+```
+
+## Clean
+```
+make clean
 ```
